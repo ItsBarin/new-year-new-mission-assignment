@@ -109,10 +109,21 @@
     border-radius: 16px;
 }
 
+.group-photo{
+    position: relative;
+}
+
 .photo-one{
     position: absolute;
     filter: brightness(70%);
 }
+
+.small-pic{
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 5%;
+}
+
 
 .text-one{
     position: absolute;
@@ -202,6 +213,9 @@
     top: 268%;
 }
 
+.products{
+    
+}
 
 
 
