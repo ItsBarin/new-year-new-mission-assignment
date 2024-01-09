@@ -8,8 +8,12 @@
     background-color: linear-gradient(180deg, #070211 0% rgba(7, 2, 17, 0.00)100%);
 }
 
+.pic-one{
+    filter: brightness(70%);
+}
+
 .banner-intro{
-    position: relative;
+    position: absolute;
   display: inline-block;
   position: absolute;
   top: 40%; 
@@ -31,7 +35,7 @@
 }
 
 .banner-sub{
-    position: relative;
+    position: absolute;
     display: inline-block;
     position: absolute;
     top: 40%; 
@@ -47,4 +51,41 @@
     font-style: normal;
     font-weight: 900;
     line-height: 95px;
+}
+
+.part-two{
+    text-align: center;
+
+}
+
+.info-one{
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.info-two{
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+.info-three{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0;
 }
