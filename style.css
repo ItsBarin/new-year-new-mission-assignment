@@ -100,14 +100,19 @@
 }
 
 .part-three{
-    
-
-}
-
-.pic-two{
     margin: auto;
     width: 1320px;
     height: 600px;
-    padding: 50px 140px 50px 140px;
+    padding: 120px 140px 120px 140px;
     flex-shrink: 0;
+    border-radius: 16px;
+}
+
+.photo-one{
+    position: relative;
+    display: inline-block;
+}
+
+.text-one{
+    
 }
