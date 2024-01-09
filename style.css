@@ -1,14 +1,21 @@
 .part-one{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+    margin: auto;
+    width: 1320px;
+    height: 600px;
+    padding: 50px 140px 50px 140px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background-color: linear-gradient(180deg, #070211 0% rgba(7, 2, 17, 0.00)100%);
 }
 
 .banner-intro{
-    position: absolute;
-    top: 0%;
-    width: 259px;
+    position: relative;
+  display: inline-block;
+  position: absolute;
+  top: 40%; 
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  width: 259px;
     height: 40px;
     padding-top: 177px;
     padding-right: 531px;
@@ -20,35 +27,24 @@
     font-weight: 400;
     line-height: normal;
     font-family: 'Merriweather', serif;
-    color: black;
-    flex-basis: 50%;
+    color: white;
 }
 
 .banner-sub{
+    position: relative;
+    display: inline-block;
     position: absolute;
-    top: 0%;
+    top: 40%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
     width: 632px;
     height: 190px;
     padding: 233px 344px 177px 344px;
-    color: black;
+    color: white;
     text-align: center;
     font-family: 'Merriweather', serif;
     font-size: 72px;
     font-style: normal;
     font-weight: 900;
     line-height: 95px;
-}
-
-.second-text{
-    width: 383px;
-    height: 107px;
-    padding-top: 770px;
-
-    color: #F00;
-    text-align: center;
-    font-family: Inter;
-    font-size: 88px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
 }
