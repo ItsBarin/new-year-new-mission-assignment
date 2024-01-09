@@ -214,13 +214,30 @@
 }
 
 .products{
+    margin-top: 260px;
+}
+
+.row-one{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.to{
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.row-two{
+    display: flex;
+    justify-content: center;
     
 }
 
-
-
-
-
-
+.fi{
+    margin-left: 24px;
+    margin-right: 24px;
+}
 
 
