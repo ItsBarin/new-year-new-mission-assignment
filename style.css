@@ -158,6 +158,21 @@
 }
 
 
+.line-one{
+    position: absolute;
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 140px; 
+    top: 260%;
+    right: 75%
+}
+
+
+
 
 
 
