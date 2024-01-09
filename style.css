@@ -167,8 +167,39 @@
     font-weight: 500;
     line-height: normal;
     margin-left: 140px; 
-    top: 260%;
-    right: 75%
+    top: 258%;
+    right: 75%;
+    margin bottom: 16px;
+}
+
+.line-two{
+    position: absolute;
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-left: 140px;
+    margin-right: 894px;
+    margin-bottom: 16px;
+    left: 140px;
+    
+}
+
+.line-three{
+    position: absolute;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-left: 140px;
+    margin-right: 894px;
+    left: 140px;
+    top: 268%;
 }
 
 
