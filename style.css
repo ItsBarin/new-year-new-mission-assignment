@@ -1,8 +1,38 @@
-.banner-intro{
-
-}
-
-.banner-one{
+.banner-one img{
+    position: absolute;
+    padding: 50px 140px;
     width: 1320px;
     height: 600px;
+    flex-shrink: 0;
+}
+
+.banner-intro{
+    position: absolute;
+    top: 0%;
+    width: 259px;
+    height: 40px;
+    padding: 177px 531px 383px 530px;
+    padding-bottom: 16px;
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.banner-sub{
+    position: absolute;
+    top: 0%;
+    width: 632px;
+    height: 190px;
+    padding: 233px 344px 177px;
+    color: black;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
 }
