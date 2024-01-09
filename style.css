@@ -1,9 +1,8 @@
-.banner-one img{
-    position: absolute;
-    padding: 50px 140px;
-    width: 1320px;
-    height: 600px;
-    flex-shrink: 0;
+.part-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 
 .banner-intro{
@@ -11,15 +10,18 @@
     top: 0%;
     width: 259px;
     height: 40px;
-    padding: 177px 531px 383px 530px;
-    padding-bottom: 16px;
-    color: #FFF;
+    padding-top: 177px;
+    padding-right: 531px;
+    padding-left: 530px;
+    padding-bottom: 383px;
     text-align: center;
-    font-family: Merriweather;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    font-family: 'Merriweather', serif;
+    color: black;
+    flex-basis: 50%;
 }
 
 .banner-sub{
@@ -27,12 +29,26 @@
     top: 0%;
     width: 632px;
     height: 190px;
-    padding: 233px 344px 177px;
+    padding: 233px 344px 177px 344px;
     color: black;
     text-align: center;
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
     font-size: 72px;
     font-style: normal;
     font-weight: 900;
     line-height: 95px;
+}
+
+.second-text{
+    width: 383px;
+    height: 107px;
+    padding-top: 770px;
+
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
