@@ -89,3 +89,25 @@
     line-height: normal;
     margin-top: 0;
 }
+
+.image-two{
+    margin: auto;
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+}
+
+.part-three{
+    
+
+}
+
+.pic-two{
+    margin: auto;
+    width: 1320px;
+    height: 600px;
+    padding: 50px 140px 50px 140px;
+    flex-shrink: 0;
+}
