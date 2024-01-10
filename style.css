@@ -290,14 +290,13 @@ flex-shrink: 0;
 border-radius: 50px;
 background: #FFF;
 color: rgba(7, 2, 17, 0.30);
-
+border: white;
 text-align: center;
 font-family: Inter;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-
 }
 
 .button{
@@ -310,7 +309,7 @@ color: #FFF;
 
 text-align: center;
 font-family: Inter;
-font-size: 20px;
+font-size: 20px;s
 font-style: normal;
 font-weight: 600;
 line-height: normal;
